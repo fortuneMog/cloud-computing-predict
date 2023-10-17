@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://vyc7woavn9.execute-api.eu-west-1.amazonaws.com/Fortune_predict_stage/Fortune_API",
+                url: "https://7dhug18iv0.execute-api.eu-west-1.amazonaws.com/Fortune_Func",
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
